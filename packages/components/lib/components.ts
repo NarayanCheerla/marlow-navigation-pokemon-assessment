@@ -1,3 +1,4 @@
+import "../styles/input.css";
 import Card from "./Card";
 import Button from "./Button";
 

@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "lerna run build --ignore=pokedex && lerna run dev --scope=pokedex"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.1.7"
